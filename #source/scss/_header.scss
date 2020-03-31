@@ -1,14 +1,13 @@
 .header {
     position: fixed;
     background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471988795518) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471988795518) 0%, transparent 100%);
     width: 100%;
 
 }
 
 .header-top {
     display: flex;
-
 }
 
 .header-column {

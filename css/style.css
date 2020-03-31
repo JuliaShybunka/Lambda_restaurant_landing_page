@@ -200,7 +200,7 @@ h6 {
 .header {
   position: fixed;
   background: black;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471989) 0%, white 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471989) 0%, transparent 100%);
   width: 100%;
 }
 
@@ -261,4 +261,48 @@ h6 {
 .header-icons__item--03::before {
   content: "";
   padding-left: 15px;
+}
+
+.banner {
+  min-height: 750px;
+  background-image: url(../img/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-content {
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 215px;
+}
+.banner-content__title {
+  font-size: 90px;
+  line-height: 115px;
+  color: #fff;
+  font-family: "Yeseva One";
+  text-align: center;
+  text-shadow: 0.469px 0.883px 1px rgba(1, 1, 1, 0.64);
+}
+.banner-content__link {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: "Lato";
+}
+.banner-content__link--btn {
+  color: #ffffff;
+  display: inline-block;
+  padding: 22px 53px;
+}
+.banner-content__link--btn:first-child {
+  margin-right: 30px;
+}
+
+.btn--b {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn--w {
+  background-color: rgba(255, 255, 255, 0.2);
 }

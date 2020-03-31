@@ -192,3 +192,59 @@ h6 {
 
 @import "header.scss";
 //Content
+
+//BANNER======================================================================================
+.banner {
+    min-height: 750px;
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+
+.banner-content {
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 215px;
+
+    &__title {
+        font-size: 90px;
+        line-height: 115px;
+        color: #fff;
+        font-family: "Yeseva One";
+        text-align: center;
+        text-shadow: 0.469px 0.883px 1px rgba(1, 1, 1, 0.64);
+    }
+
+    &__link {
+        margin-top: 5px;
+        font-size: 18px;
+        font-family: "Lato";
+
+
+
+    }
+
+    &__link--btn {
+        color: #ffffff;
+        display: inline-block;
+        padding: 22px 53px;
+
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
+}
+
+.btn--b {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.btn--w {
+    background-color: rgba(255, 255, 255, 0.2);
+}
