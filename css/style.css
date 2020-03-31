@@ -1,0 +1,160 @@
+/*
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  position: relative;
+  width: 100%;
+  color: #000;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body.lock {
+  overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  body.lock {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+  }
+}
+
+input,
+button,
+textarea {
+  font-family: "Lato", sans-serif;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container {
+  max-width: 1178px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 1190px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background: black;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471989) 0%, white 100%);
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+}
+
+.header-column:first-child {
+  flex: 1 1 20%;
+}
+.header-column:last-child {
+  flex: 1 1 80%;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-nav__item {
+  flex: 1 1 16.666%;
+  display: block;
+  font-size: 21px;
+  color: #fff;
+  font-family: "Gentium Book Basic";
+  font-weight: 700;
+}
