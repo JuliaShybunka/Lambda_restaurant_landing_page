@@ -1,9 +1,9 @@
 .header {
     position: fixed;
-    top: 0;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5242471988795518) 0%, rgba(255, 255, 255, 1) 100%);
     width: 100%;
+
 }
 
 .header-top {
@@ -13,31 +13,72 @@
 
 .header-column {
     &:first-child {
-        flex: 1 1 20%;
+        flex: 1 1 30%;
     }
 
     &:last-child {
-        flex: 1 1 80%;
+        flex: 1 1 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 30px;
     }
-}
-
-.header-logo {
-    &__image {}
 }
 
 .header-nav {
     display: flex;
+    justify-content: space-between;
+    min-width: 720px;
+
 
     &__item {
-        flex: 1 1 16.666%;
         display: block;
+        padding: 44px 10px;
         font-size: 21px;
         color: #fff;
         font-family: "Gentium Book Basic";
-        font-weight: 700;
+        font-weight: 400;
+        border-top: 3px solid transparent;
+        transition: 0.3s;
+
+        &:hover {
+            border-top: 3px solid #ffffff;
+        }
     }
 }
 
 .header-icons {
-    &__item {}
+    display: block;
+
+    &__item {
+        display: inline-block;
+
+        &--01,
+        &--02,
+        &--03 {
+            &::before {
+                font-family: 'icomoon' !important;
+                width: 81px;
+                height: 40px;
+                font-size: 21px;
+                color: #dab33e;
+
+            }
+
+        }
+
+        &--01::before {
+            content: "\f099";
+        }
+
+        &--02::before {
+            content: "\f167";
+            padding-left: 15px;
+        }
+
+        &--03::before {
+            content: "\f09a";
+            padding-left: 15px;
+        }
+    }
 }
