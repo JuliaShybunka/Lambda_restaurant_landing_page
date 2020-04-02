@@ -354,3 +354,38 @@ h6 {
   margin-top: 50px;
   padding-left: 59px;
 }
+
+.ingredients {
+  background: center no-repeat url(../img/ingredients/ingredients.jpg);
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+}
+
+.ingredients-box {
+  max-width: 570px;
+  background-color: rgba(0, 0, 0, 0.67);
+  text-align: center;
+  padding: 80px 73px;
+  float: right;
+}
+.ingredients-box__title {
+  font-size: 36px;
+  color: #fff;
+  font-family: "Yeseva One";
+  margin-bottom: 10px;
+}
+.ingredients-box__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-top: 11px;
+}
+.ingredients-box__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 55px;
+  background-color: rgba(255, 255, 255, 0.09);
+}
