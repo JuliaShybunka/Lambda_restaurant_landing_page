@@ -455,3 +455,38 @@ h6 {
 .menu-list__btn {
   display: none;
 }
+
+.reviews {
+  background: no-repeat url(../../img/review-bg.jpg);
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.reviews-box {
+  max-width: 770px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  padding: 78px 60px 105px 68px;
+  color: #fff;
+}
+.reviews-box__title {
+  font-size: 36px;
+  font-family: "Yeseva One";
+  margin-bottom: 8px;
+}
+.reviews-box__line {
+  margin-top: 10px;
+}
+.reviews-box__text {
+  font-size: 25px;
+  line-height: 45px;
+  color: #dde0df;
+  font-family: "Gentium Book Basic";
+  font-weight: 700;
+  margin-top: 8px;
+}
+.reviews-box__subtext {
+  font-size: 18px;
+  margin-top: 33px;
+}
