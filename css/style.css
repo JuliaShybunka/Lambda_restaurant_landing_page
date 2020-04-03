@@ -389,3 +389,69 @@ h6 {
   margin-top: 55px;
   background-color: rgba(255, 255, 255, 0.09);
 }
+
+.menu {
+  padding: 100px 0;
+  background-image: url(../../img/menu-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu .container {
+  max-width: 1040px;
+}
+.menu__row {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__column {
+  text-align: center;
+  flex: 1 1 50%;
+  max-width: 455px;
+}
+.menu__title {
+  font-size: 36px;
+  color: #cc9900;
+  font-family: "Yeseva One";
+}
+.menu__line {
+  margin-bottom: 10px;
+}
+
+.menu-list {
+  margin-bottom: 9px;
+  padding: 7px 12px;
+}
+.menu-list--special {
+  position: relative;
+  border: 1px solid #c89f2d;
+}
+.menu-list--special .menu-list__btn {
+  display: block;
+  position: absolute;
+  top: -26px;
+  background-color: #c89f2d;
+  font-size: 14px;
+  color: #fff;
+  padding: 6px 12px;
+  right: -2px;
+}
+.menu-list__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  line-height: 24px;
+  color: #c89f2d;
+  font-family: "Yeseva One";
+}
+.menu-list__text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+  border-top: 1px solid #c89f2d;
+  padding: 13px 0;
+}
+
+.menu-list__btn {
+  display: none;
+}
