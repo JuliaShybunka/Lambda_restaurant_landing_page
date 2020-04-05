@@ -462,3 +462,117 @@ h6 {
         margin-top: 33px;
     }
 }
+
+//===================================================================
+
+.reservation-content {
+    display: flex;
+}
+
+.reservation {
+    background-image: url(../../img/reservation/reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+
+    &__column {
+        flex: 1 1 50%;
+    }
+
+    &__image {
+        &:first-child {
+            margin-right: 30px;
+        }
+    }
+}
+
+
+
+.reservation-box {
+    text-align: center;
+    max-width: 480px;
+
+    &__title {
+        font-size: 36px;
+        line-height: 24px;
+        color: #cc9900;
+        font-family: "Yeseva One";
+    }
+
+    &__line {}
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #4c4c4c;
+    }
+}
+
+.reservation-form {
+
+    &-wrapper {}
+
+    &__top {
+        label {
+            font-size: 14px;
+            color: #c9a131;
+            font-family: "Open Sans";
+            font-weight: 700;
+        }
+
+        input {
+            width: 200px;
+            height: 36px;
+            background-color: rgba(255, 255, 255, 0.4);
+            border: 1px solid #c89f2d;
+
+            &::placeholder {
+                font-size: 16px;
+                color: #7c7c7c;
+                font-family: "Open Sans";
+                font-weight: 400;
+                font-style: italic;
+            }
+        }
+    }
+
+    &__bottom {}
+
+    &__btn {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-weight: 400;
+        padding: 11px 60px;
+        background-color: #c9a131;
+    }
+}
+
+.reservation-form__top,
+.reservation-form__bottom {
+
+    label {
+        font-size: 14px;
+        color: #c9a131;
+        font-family: "Open Sans";
+        font-weight: 700;
+    }
+
+    input {
+        width: 200px;
+        height: 36px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: 1px solid #c89f2d;
+
+        &::placeholder {
+            font-size: 16px;
+            color: #7c7c7c;
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-style: italic;
+        }
+    }
+
+
+}
