@@ -575,3 +575,93 @@ h6 {
   font-weight: 400;
   font-style: italic;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #191919;
+  padding: 60px 0;
+  text-align: center;
+}
+.footer__column {
+  flex: 33.333%;
+  max-width: 360px;
+}
+.footer__title {
+  font-size: 21px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "Yeseva One";
+}
+.footer__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding-top: 10px;
+}
+.footer__text--b {
+  font-weight: 700;
+}
+.footer__card {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.footer__card--01, .footer__card--02, .footer__card--03, .footer__card--04 {
+  padding-right: 10px;
+}
+.footer__card--01::before, .footer__card--02::before, .footer__card--03::before, .footer__card--04::before {
+  font-family: "icomoon" !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.footer__card--01::before {
+  content: "";
+}
+.footer__card--02::before {
+  content: "";
+}
+.footer__card--03::before {
+  content: "";
+}
+.footer__card--04::before {
+  content: "";
+}
+.footer__card--04 {
+  padding: 0;
+}
+.footer__icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.footer__icon--01, .footer__icon--02, .footer__icon--03, .footer__icon--04 {
+  padding-right: 10px;
+}
+.footer__icon--01::before, .footer__icon--02::before, .footer__icon--03::before, .footer__icon--04::before {
+  font-family: "icomoon" !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.footer__icon--01::before {
+  content: "";
+}
+.footer__icon--02::before {
+  content: "";
+}
+.footer__icon--03::before {
+  content: "";
+}
+.footer__icon--04::before {
+  content: "";
+}
+.footer__icon--04 {
+  padding: 0;
+}
